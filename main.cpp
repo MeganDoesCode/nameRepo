@@ -1,16 +1,17 @@
 #include <iostream>
 using namespace std;
 
-void printName();
+void printAge(int year);
 
 int main()
 {
     cout<<"GitHub Demo"<<endl;
-    printName();
+    printAge(2026);
     return 0;
 }
 
-void printName()
+void printAge(int year)
 {
-    cout<<"Megan Nicole Jensen"<<endl;
+    int age = year - 1999;
+    cout<<"Megan Nicole Jensen ("<<age<<")"<<endl;
 }

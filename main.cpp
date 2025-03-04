@@ -12,5 +12,5 @@ int main()
 
 void printName()
 {
-    cout<<"Megan Jensen"<<endl;
+    cout<<"Megan Nicole Jensen"<<endl;
 }
